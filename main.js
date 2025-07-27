@@ -2,10 +2,10 @@ import {getLista} from "./lista.js"
 
 const olItens = document.querySelector("#itens")
 const qEntradas = document.querySelector("#entrada")
-const bAdicionar = document.querySelector("#Adicionar")
+const bAdicionar = document.querySelector("#adicionar")
 const bLimpar = document.querySelector("#limpar")
 
-atualizarLista();
+atualizalista();
 
 function atualizalista(){
     olItens.innerHTML = "";
