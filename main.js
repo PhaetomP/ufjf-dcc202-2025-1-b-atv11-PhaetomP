@@ -1,4 +1,4 @@
-import {getLista} from "./lista.js"
+import {getLista, limpaLista} from "./lista.js"
 
 const olItens = document.querySelector("#itens")
 const qEntradas = document.querySelector("#entrada")
@@ -15,4 +15,11 @@ function atualizalista(){
         li.textContent = lista[i];
         olItens.appendChild(li);
     }
+}
+
+bLimpar.addEventListener('click', limparItensDeLista);
+
+function limparItensDeLista(){
+    limpaLista();
+    atualizalista();
 }
