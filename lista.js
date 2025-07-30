@@ -8,12 +8,10 @@ export function limpaLista(){
     lista.splice(0);
 }
 
-export adicionaNaLista(){
-    lista.push(item);
+export function adicionaNaLista() {
+    
 }
 
-export removeDaLista(){
-    if(pos>=0 && pos < lista.length){
-        lista.splice(pos, 1);
-    }
+  export function removeDaLista() {
+    
 }
