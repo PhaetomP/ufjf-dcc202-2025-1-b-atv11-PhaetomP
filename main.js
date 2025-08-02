@@ -24,6 +24,14 @@ function limparItensDeLista(){
     atualizarlista();
 }
 
-btnAdicionar.addEventListener('click', adicionarNaLista)
+btnAdicionar.addEventListener('click', adicionandoNaLista)
 
+function adicionandoNaLista(){
+    adicionaNaLista();
+    atualizarlista();
+}
 
+function removendoDaLista(){
+    removeDaLista();
+    atualizarlista();
+}
